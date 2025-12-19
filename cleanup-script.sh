@@ -37,7 +37,6 @@ echo "===================================="
 # -------- Cleanup Phase --------
 kubectl delete deployment $UNUSED_DEPLOYMENTS -n $NAMESPACE --ignore-not-found
 kubectl delete job $UNUSED_JOBS -n $NAMESPACE --ignore-not-found
-kubectl delete configmap $UNUSED_CONFIGMAPS -n $NAMESPACE --ignore-not-found
 kubectl delete secret $UNUSED_SECRETS -n $NAMESPACE --ignore-not-found
 
 echo "[INFO] Cleanup completed"
