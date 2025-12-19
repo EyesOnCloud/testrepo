@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAMESPACE="unused-resources-lab"
+NAMESPACE="unused-resources"
 
 echo "===================================="
 echo "Identifying unused resources in $NAMESPACE"
